@@ -10,4 +10,6 @@ http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005465
 
 And our webserver: http://faculty.pieas.edu.pk/fayyaz/prank.html
 
+The webserver can also be downloaded as part of this repo (prank.html and prank.js in the folder prank)
+
 Use the code prank.py for generating predictions given a FASTA file.
