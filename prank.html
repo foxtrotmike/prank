@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://combi.cs.colostate.edu/supplements/mi1/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>pRANK - Prion Ranking & Classification</title>
+  <style>
+    body {font-family:Verdana,Arial;}
+  </style>
+  <script type="text/javascript" src="./prank/prank.js"> </script>
+</head>
+
+<body>
+
+<h1 class="title">pRANK - Prion Ranking and Classification</h1>
+pRANK is a method for prediction of prion forming proteins and localization of their prion domains. High pRANK score indicates a higher likelihood of the input protein being a protein. pRANK also predicts the position of a 20-residue window containing the most likely prion forming domain in the protein.
+
+<br>
+<br>
+Enter an amino-acid sequence in the box, or select a sequence here to generate predictions:
+<select id="selectedSequence">
+  <option value="" disabled="" selected="" style="display:none;">Examples:</option>
+  <option value="Ure2">Ure2</option>
+  <option value="Sup35">Sup35</option>
+  <option value="McM1">McM1</option>
+  <option value="Snf2">Snf2</option>
+</select>
+
+<br>
+<textarea id="sequence" cols="60" rows="5" autofocus="" style="width:800px;" placeholder="Enter amino acid sequence."></textarea>
+<br>
+ <span id="result">Result will appear here:</span>
+
+<p>
+<canvas width="800px" height="200px" id="plot"></canvas>
+
+<br>
+<br>
+
+</p><hr>
+
+<h4>Citation</h4>
+If you use pRANK please cite:<br>
+<a href="http://faculty.pieas.edu.pk/fayyaz/">Fayyaz-ul-Amir Afsar Minhas</a>, <a href="http://www.bmb.colostate.edu/people/eross/">Eric D. Ross</a> and, <a href="http://www.cs.colostate.edu/~asa/">Asa Ben-Hur</a>,
+<a href="https://doi.org/10.1371/journal.pcbi.1005465">
+Amino acid composition predicts prion activity</a>. PLoS Comput Biol 13(4): e1005465, 2017.<br>
+Note: This version has been trained for predicting yeast proteome data. The code for running large-scale screens is available <a href="https://github.com/foxtrotmike/prank">here</a>. 
+
+<hr>
+
+
+</body></html>
